@@ -1,0 +1,70 @@
+* {
+	margin: 0;	 
+}
+
+.carousel {
+	height: 90vh;
+	width: 100%;
+	background: red;
+}
+
+.heading-container {
+	height: auto;
+	background: pink;
+	width: inherit;
+
+}
+
+.news-heading {
+	align-content: center;
+	color: white;
+}
+
+.card {
+	margin: 2%;
+	margin-top: 2%;
+}
+ 
+ .row {
+ 	padding: 2%;
+ }
+
+.blog-layout {
+	background: whitesmoke;
+	padding:2%;
+}
+
+.blog-layout:hover {
+	box-shadow: 5px 7px 5px 7px lightgrey;
+}
+
+.blog-heading {
+	font-size: 25px;
+}
+
+.blog-content {
+	font-size: 13px;
+	opacity: 0.6;
+}
+
+.writer-name {
+	color: red;
+ 	font-size: 20px;
+ }
+
+ .date-time-of-blog {
+ 	opacity: 0.7;
+ 	color: red;
+ }
+
+ .news-letter-container {
+ 	height: 20%;
+ 	padding: 2%;
+ 	background:pink;
+ }
+
+.newsletter-form {
+	position: relative;
+	left: 40%;
+	width: 50%;
+}
