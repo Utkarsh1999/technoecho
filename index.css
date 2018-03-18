@@ -2,9 +2,10 @@
 	margin: 0;	 
 }
 
-.carousel {
-	height: 90vh;
-	width: 100%;
+.container-one {
+	position: relative;
+	left: 30%;
+	width: 50%;
 	background: red;
 }
 
@@ -67,4 +68,30 @@
 	position: relative;
 	left: 40%;
 	width: 50%;
+}
+
+.baseline {
+	background: pink;
+
+}
+
+.baseline-text {
+	position: relative;
+	left: 35%;
+	color: black;
+	
+}
+
+.parallax {
+    /* The image used */
+     background-image: url("gen-pic.jpg");
+     content: " ";
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
