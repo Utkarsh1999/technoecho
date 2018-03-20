@@ -61,7 +61,7 @@
  .news-letter-container {
  	height: 20%;
  	padding: 2%;
- 	background:pink;
+ 	background:darkgrey;
  }
 
 .newsletter-form {
@@ -71,7 +71,7 @@
 }
 
 .baseline {
-	background: pink;
+	background: darkgrey;
 
 }
 
@@ -84,14 +84,42 @@
 
 .parallax {
     /* The image used */
-     background-image: url("gen-pic.jpg");
-     content: " ";
+    background-image: url("bg.jpg");
+     /*content: " ";*/
     /* Set a specific height */
     min-height: 500px; 
-
+    /*background-color: pink;*/
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#header{
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+}
+
+.padding-left {
+	padding-left: 10%;
+}
+
+.one {
+  color: white;
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+  font-size: 80px;
+  border-right: 2px solid red;
+}
+
+/*media query for parallax*/
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }

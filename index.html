@@ -4,10 +4,10 @@
 	<title>Home | Technoecho</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+	
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -61,24 +61,30 @@
 
 	
 
-		<!-- corousel starts here -->
-			<div class="container-fluid parallax" style="margin-bottom: 2%;"></div>
+		<!-- parallax starts here -->
+			<div class="container-fluid parallax" style="margin-bottom: 2%;" onload="typeWriter()" onhover="typeWriter()">
+				
+				<div class="autotype-div one" id="one" >
+					<script type="text/javascript"  src="autotype.js"> </script>
+				</div>
+			</div>
 				
 			
-		<!-- corousel ends here -->
+		<!-- parallax ends here -->
 	
 
 	<!-- second container starts here -->
 		<div class="container-fluid">
 			<!-- heading sub conatiner starts -->
 			<div class="container-fluid heading-container">
-				<span class="news-heading"><h1>NEWS</h1></span>
+				<span class="news-heading" ><h1>NEWS</h1></span>
+				
 			</div>
 			<!-- heading sub conatiner ends -->
 			
 			<!-- news card container starts -->
 					<!-- row 1 starts -->
-				<div class="container-fluid col-md-12 row">
+				<div class="container-fluid padding-left col-md-12 row">
 					<div class="card col-md-3" style="width: 18rem;">
 					  <img class="card-img-top" src="gen-pic.jpg" alt="Card image cap">
 					  <div class="card-body">
@@ -109,7 +115,7 @@
 				</div>
 				<!-- row 1 ends -->
 				<!-- row 2 starts -->
-				<div class="container-fluid col-md-12 row">
+				<div class="container-fluid padding-left col-md-12 row">
 					<div class="card col-md-3" style="width: 18rem;">
 					  <img class="card-img-top" src="gen-pic.jpg" alt="Card image cap">
 					  <div class="card-body">
@@ -153,7 +159,7 @@
 		</div>
 
 		<!-- blog conatiner starts here -->
-		<div class="container-fluid col-md-12 row">
+		<div class="container-fluid padding-left col-md-12 row">
 			<div class="container-fluid blog-layout col-md-5 row green ">
 				<!-- <div class="container "> --><img src="gen-pic.jpg" class="rounded-right col-md-5 blue"><!-- </div> -->
 				<div class="container col-md-7 red"><span class="blog-heading">Machine Learning</span><p class="blog-content">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
@@ -161,7 +167,7 @@
 				<span class="date-time-of-blog">12-dec-2017</span> 
 				</div>
 		</div>
-			<div class="col-md-2"></div>
+			<div class="col-md-1"></div>
 			<div class="container-fluid blog-layout col-md-5 row green ">
 				<!-- <div class="container "> --><img src="gen-pic.jpg" class="rounded-right col-md-5 blue"><!-- </div> -->
 				<div class="container col-md-7 red"><span class="blog-heading">Edge Computing</span><p class="blog-content">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
@@ -170,7 +176,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid col-md-12 row">
+		<div class="container-fluid padding-left col-md-12 row">
 			<div class="container-fluid blog-layout col-md-5 row green ">
 				<!-- <div class="container "> --><img src="gen-pic.jpg" class="rounded-right col-md-5 blue"><!-- </div> -->
 				<div class="container col-md-7 red"><span class="blog-heading">IOT</span><p class="blog-content">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
@@ -178,7 +184,7 @@
 				<span class="date-time-of-blog">12-dec-2017</span> 
 				</div>
 		</div>
-			<div class="col-md-2"></div>
+			<div class="col-md-1"></div>
 			<div class="container-fluid blog-layout col-md-5 row green ">
 				<!-- <div class="container "> --><img src="gen-pic.jpg" class="rounded-right col-md-5 blue"><!-- </div> -->
 				<div class="container col-md-7 red"><span class="blog-heading">BlockChain</span><p class="blog-content">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
@@ -252,5 +258,11 @@
 		</div>
 	
 	<!-- footer ends here -->
+
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
